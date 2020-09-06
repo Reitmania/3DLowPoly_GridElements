@@ -7,7 +7,7 @@ from random import random, seed, uniform, randint, randrange
 HEIGHT = 3
 WIDTH = 1
 RANGE_HEIGHT = .5
-RANGE_OFFSET_IN = .15
+RANGE_OFFSET_IN = .35
 
 
 
@@ -232,6 +232,6 @@ if __name__ == "__main__":
     if start_generator:
         reset_scene()
         obj = generate_asset()
-        generate_backplate()
+        #generate_backplate()
 
 
